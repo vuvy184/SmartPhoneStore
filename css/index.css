@@ -28,19 +28,21 @@ a.navbar-brand img{
     height: 100px;
 }
 form.search-form{
-    width: 300px;
+    width: 250px;
     margin-right: 50px;
     position: relative;
 }
 form.search-form input{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 button.search-btn {
-    border-radius: 0 5px 5px 0;
+    margin-top: 1px;
+    height: 35px ;
+    border-radius: 5px;
     position: absolute;
-    right: 0;
+    right: -9px;
     top: 0;
-    background-color: #0099FF;
+    background-color: #f0f5f9;
     border-color: #fff;
     color: #ffffff;
 }
@@ -50,10 +52,10 @@ button.search-btn {
 a:hover{
     color: #ffc000;
 }
-button.search-btn:hover{
+/* button.search-btn:hover{
     background-color: #fff!important;
     color: #0099FF	!important;
-}
+} */
 ul.action-menu .nav-item .nav-link{
     margin: 0 15px;
     font-size: 18px;
@@ -79,11 +81,13 @@ ul.dropdown-menu a li:hover {
 }
 /* slider */
 section.slider{
-    height: 300px;
+    height: 400px;
+   
 }
 section.slider .carousel-item img{
-    object-fit: contain;
+    object-fit: cover;
     position: relative;
+    border-radius: 10px;
 }
 a.btn-order-now{
     position: absolute;
@@ -331,7 +335,7 @@ section.cartegory_product a{
 }
 /*button owl-next prev */
 .owl-carousel .owl-nav button {
-    background: #fff !important;
+    background: #f1f0f0 !important;
     height: 44px;
     position: absolute;
     width: 44px;
@@ -342,7 +346,7 @@ section.cartegory_product a{
     transform: translateY(0);
 }
 .owl-carousel:hover button{
-    opacity: .8;
+    opacity: 0.5;
     }
 .owl-carousel:hover button i{
     color: #000;
